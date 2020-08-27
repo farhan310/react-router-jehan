@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 60vw;
+  height: 60vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.activeTab {
+  color: red;
+  border-bottom: 1px solid black;
+}
+
+.container {
+  height: 100%;
+  border: 3px solid red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 55%;
+  height: 60%;
+}
+
+.bk {
+  border-color: #185493;
+}
+
+.plk {
+  border-color: #fe7d04;
+}
+
+.th {
+  flex-direction: column;
+}
