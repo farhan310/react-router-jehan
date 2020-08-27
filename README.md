@@ -36,3 +36,6 @@
 - https://reactrouter.com/web/api/Link
 - https://reactrouter.com/web/api/NavLink
 - https://reactrouter.com/web/api/NavLink/activeclassname-string
+
+## Submission
+- Please push this up to a new repository on your own github, then submit the url as a comment on this issue -> https://github.com/rbi-learning/react-router-homework/issues/1
