@@ -18,19 +18,19 @@
 
 - https://reactrouter.com/web/api/BrowserRouter
 
-(3) Modify the `NavBar` component so instead of `a` tags, it uses `react-router-dom` components that will handle navigation without causing a page refresh. Bonus points if you utilize one of these components to apply an `activeClassName` of `"activeTab"` for the route that is currently being displayed.
-
-- https://reactrouter.com/web/api/Link
-- https://reactrouter.com/web/api/NavLink
-- https://reactrouter.com/web/api/NavLink/activeclassname-string
-
-(4) Create a `route` for each of the following components
+(3) Create a `route` for each of the following components
 
 - `Home` -> `/`
 - `BurgerKing` -> `/bk`
 - `Popeyes` -> `/plk`
 - `TimHortons` -> `/th/:adjective`
 - https://reactrouter.com/web/api/Route
+
+(4) Modify the `NavBar` component so instead of `a` tags, it uses `react-router-dom` components that will handle navigation without causing a page refresh. Bonus points if you utilize one of these components to apply an `activeClassName` of `"activeTab"` for the route that is currently being displayed.
+
+- https://reactrouter.com/web/api/Link
+- https://reactrouter.com/web/api/NavLink
+- https://reactrouter.com/web/api/NavLink/activeclassname-string
 
 (5) You'll notice thart the `TimHortons` route is different than the rest. It has an additional segment following the brand, `:adjective`. This is what is known as a `param`. We use `params` to pass data through the url, you've seen this before when creating routes with `express`, the concept is essentially the same, the `param` is simply a placeholder for whatever text you put at that position of the url! With this in mind, let's modify the `TimHortons` component to read the `adjective` param from the url and display it within the `h3` tag. **note** You will also need to modify the navlink inside of `NavBar` to navigate to the this route with a `param`
 
