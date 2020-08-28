@@ -2,10 +2,14 @@ import React from 'react';
 
 const NavBar = () => (
   <nav>
-    <a href='#'>Home</a>
-    <a href='#'>Burger King</a>
-    <a href='#'>Popeyes</a>
-    <a href='#'>Tim Hortons</a>
+    <NavLink exact to="/">
+      Home
+    </NavLink>
+    <NavLink to="/bk">>Burger King</NavLink>
+    <NavLink to="/plk">Popeyes</NavLink>
+    <NavLink to="/th/:adjective" activeClassName="activeTab">
+      Tim Hortons
+    </NavLink>
   </nav>
 );
 
